@@ -1,0 +1,105 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+.App {
+  /* text-align: center; */
+  overflow-y: auto;
+  padding-right: 2em;
+}
+body {
+  background-color: #ececec;
+  margin: 0 auto;
+}
+.root {
+  overflow: hidden;
+}
+.container {
+  padding: 0 1.8rem;
+}
+.link-font-color {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 18px;
+  font-size: 30px;
+}
+
+.home-link-color {
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+}
+.author-link-color {
+  color: #000000;
+  margin: 0 0;
+  text-decoration: none;
+  font-size: 15px;
+}
+.MuiButton-containedPrimary {
+  color: #3f51b5;
+  background-color: #fff;
+}
+
+.MuiCardContent-root:last-child {
+  padding-bottom: 0;
+}
+.menuList {
+  padding-top: 10px;
+}
+.manage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.manage-err {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tableContainer {
+  padding: 10px 200px;
+}
+.err-message {
+  color: red;
+}
+.input-span {
+  margin-right: 2rem;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.home-card-container {
+  display: flex;
+  flex-direction: row;
+}
+.home-card-container div {
+  margin: 5px 4px;
+  min-width: 19%;
+}
+.card-container div {
+  margin: 5px 4px;
+  min-width: 19%;
+}
+
+/* .card-container a {
+  margin: 5px 15px;
+  min-width: 27%;
+} */
+section {
+  margin: 12px 0px;
+}
+.column-title {
+  display: block;
+  position: relative;
+  border: none;
+  border-radius: 0;
+  margin: 0 10px 5px;
+}
